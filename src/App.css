@@ -1,0 +1,31 @@
+.App{
+    display: flex;
+    justify-content: space-around;
+}
+
+.user-info{
+    width: 140px;
+    height: 190px;
+    border: 3px solid;
+    border-radius: 10px;
+    background-color: #ff7f50;
+    margin-bottom: 30px;
+}
+.user-name{
+    margin: 0;
+  font-size: 30px;
+}
+.user-info img {
+    width: 130px;
+    height: 130px;
+}
+
+.comment-date, 
+.comment-text{
+  margin: 0;
+  width: 140px;
+  height: 80px;
+  box-shadow: 3px 3px 0 0;
+  background-color: #ff7f50;
+  font-size: 19px;
+}
